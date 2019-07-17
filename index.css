@@ -21,8 +21,6 @@ body {
 
 /* add the .bigItem class */
 .big-item {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row: 2 / 4;
+  grid-column: 2 / 4;
 }
